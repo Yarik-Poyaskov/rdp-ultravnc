@@ -2,7 +2,7 @@ param(
     [string]$VncKey = ""
 )
 
-$githubZipUrl = "https://github.com/Yarik-Poyaskov/rdp-ultravnc/releases/latest/download/UltraVNC.zip"
+$githubZipUrl = "https://raw.githubusercontent.com/Yarik-Poyaskov/rdp-ultravnc/main/UltraVNC.zip"
 
 $targetDir = "$env:LOCALAPPDATA\uvnc bvba\UltraVNC"
 $vncExe    = Join-Path $targetDir "winvnc.exe"
